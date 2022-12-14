@@ -107,7 +107,7 @@ class AddOptions extends React.Component {
 
 const Action = (props) => {
   return (
-    <button disabled={!props.hasOption} onClick={props.pickOption}>What should I do?!!</button>
+    <button disabled={!props.hasOption} onClick={props.pickOption}>What should I do?!!!!!</button>
   )
 }
 
