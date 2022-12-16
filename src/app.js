@@ -94,7 +94,7 @@ const Options = (props) => {
   return (
     <div>
     <button onClick={props.handleDeleteOptions}>Remove All</button>
-    {props.options.length === 0 && <p>Please add options to get started!</p>}
+    {props.options.length === 0 && <p>Please add options to get started!!!</p>}
     {props.options.map((option, index) => <Option key={index} id={index} optionText={option} handleDeleteOption={props.handleDeleteOption}/>)}
     </div>
   )}
